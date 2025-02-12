@@ -12,7 +12,7 @@ The portfolio has an efficient user interface for easy navigation.
 
 # Installation
 ```
-git clone 
+git clone  https://github.com/MbuguaDennis/mbuguadennis.github.io.git
 cd repository_name
 npm install
 ```
