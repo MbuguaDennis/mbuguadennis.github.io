@@ -1,0 +1,105 @@
+/* import css reset file */
+@import './css-reset.css';
+@import './typography.css';
+/* PORTFOLIO HEADER STYLING */
+/* Base styles */
+/* Header Styles */
+.portfolio__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #f7f7f7;
+    color: #333;
+  }
+  
+  /* Navigation List */
+  .header__nav .nav__list {
+    display: flex;
+    gap: 1.5rem;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  /* Navigation Links */
+  .header__nav .nav__list li a {
+    text-decoration: none;
+    color: var(--color-sunset);
+    font-weight: 500;
+    transition: color 0.3s ease;
+  }
+  
+  .header__nav .nav__list li a:hover {
+    color: #ffb22c; /* Highlight color */
+  }
+  
+  /* Profile Styling */
+  .header__profile {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    background-image: url(../assets/blue_bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 3px 10px;
+  }
+  .header__profile strong{
+    color:rgb(241, 201, 21);
+  }
+  
+  /* Profile Image */
+  .header__profile-logo {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+
+/* toggle menu design */
+.menu{
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    border: 1px solid gold;
+    cursor: pointer;
+}
+.menu .fa-bars{
+    font-size: 33px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .portfolio__header {
+      flex-direction: column;
+      text-align: center;
+      gap: 1rem;
+    }
+  
+    .header__nav .nav__list {
+      flex-direction: column;
+      gap: 0.75rem;
+    }
+  }
+
+  @media screen and (min-width:768px){
+    .menu .fa-bars{
+        display: none;
+    }
+  }

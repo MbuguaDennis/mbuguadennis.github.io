@@ -1,0 +1,36 @@
+/* Root Typography Variables */
+:root {
+    /* Font Families */
+    --font-heading: 'Poppins', sans-serif;
+    --font-body: 'Lato', sans-serif;
+    --font-code: 'Roboto Mono', monospace;
+    /* Colors */
+  --color-cloud: rgb(247, 247, 247); /* Light Gray (Cloud) */
+  --color-sunset: rgb(255, 178, 44); /* Warm Yellow (Sunset) */
+  --sunset--light: #f0e7d3;
+  --color-earth: rgb(133, 72, 54); /* Deep Brown (Earth) */
+  --color-ink: rgb(0, 0, 0); /* Pure Black (Ink) */
+  
+    /* Font Sizes */
+    --font-size-sm: 0.875rem; /* 14px */
+    --font-size-base: 1rem; /* 16px */
+    --font-size-lg: 1.25rem; /* 20px */
+    --font-size-xl: 1.5rem; /* 24px */
+    --font-size-xxl: 2rem; /* 32px */
+  
+    /* Line Heights */
+    --line-height-base: 1.6;
+    --line-height-heading: 1.2;
+  
+    /* Font Weights */
+    --font-weight-light: 300;
+    --font-weight-regular: 400;
+    --font-weight-medium: 500;
+    --font-weight-bold: 700;
+  
+    /* Letter Spacing */
+    --letter-spacing-tight: -0.02em;
+    --letter-spacing-normal: 0;
+    --letter-spacing-wide: 0.05em;
+  }
+  
