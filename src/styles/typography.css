@@ -4,6 +4,7 @@
     --font-heading: 'Poppins', sans-serif;
     --font-body: 'Lato', sans-serif;
     --font-code: 'Roboto Mono', monospace;
+    --montserrat: "Montserrat", serif;
     /* Colors */
   --color-cloud: rgb(247, 247, 247); /* Light Gray (Cloud) */
   --color-sunset: rgb(255, 178, 44); /* Warm Yellow (Sunset) */

@@ -1,6 +1,6 @@
 /* import css reset file */
 @import './css-reset.css';
-@import './typography.css';
+@import url('./typography.css');
 /* PORTFOLIO HEADER STYLING */
 /* Base styles */
 /* Header Styles */
@@ -21,17 +21,43 @@
     padding: 0;
     margin: 0;
   }
+  .projects__list{
+    position: relative;
+  }
+  .projects__list .projects__list-items{
+    position: absolute;
+    top: 100%;
+    width: 300px;
+    background-color: var(--color-cloud);
+    display: none;
+  }
+  .projects__list:hover .projects__list-items{
+    display: block;
+    border-bottom: 2px solid var(--color-sunset);
+  }
+  .projects__list-items li{
+    margin-top: 0.8em;
+  }
+
+
+
+  /* Project list navigation responsive */
   
   /* Navigation Links */
   .header__nav .nav__list li a {
-    text-decoration: none;
     color: var(--color-sunset);
     font-weight: 500;
     transition: color 0.3s ease;
+    font-family: var( --montserrat);
+    transition: all 0.3s ease-in;
+    padding: 4px 8px;
+    border-radius: 6px;
   }
   
   .header__nav .nav__list li a:hover {
-    color: #ffb22c; /* Highlight color */
+    color: var(--color-cloud); /* Highlight color */
+    background-color: var(--color-ink);
+    border-bottom: 2px solid var(--color-sunset);
   }
   
   /* Profile Styling */
