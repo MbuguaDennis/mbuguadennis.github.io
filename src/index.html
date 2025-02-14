@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dennis Mbugua Portfolio</title>
+    <title>DENNIS MBUGUA</title>
     <!-- LINK TO EXTERNAL CSS -->
     <link rel="stylesheet" href="./styles/style.css">
     <!-- GOOGLE FONT LINK -->
@@ -16,37 +16,260 @@
 <body>
     <!-- Portfolio Header -->
     <header class="portfolio__header">
-        <h3 class="header__logo">SOFTWARE ENGINEER</h3>
-    
-        <nav class="header__nav">
+        <nav class="header__nav show-navbar">
             <ul class="nav__list" aria-label="primary__navigation">
-                <li><a href="#" role="link">Home</a></li>
-                <li><a href="#" role="link">About</a></li>
+                <li><a href="./index.html" role="link">Home</a></li>
+                <li><a href="#hero" role="link">About</a></li>
                 <li class="projects__list">
-                    <a href="#" role="link">Projects <i class="fa-solid fa-angle-down"></i></a>
-                    <ul class="projects__list-items">
+                    <a href="#projectsSection" role="link">Projects <i class="fa-solid fa-angle-down"></i></a>
+                    <!-- <ul class="projects__list-items">
                         <li><a href="#">Front-End Engineering</a></li>
                         <li><a href="#">Backend Engineering</a></li>
                         <li><a href="#">Graphics</a></li>
                         <li><a href="#">Other Projects</a></li>
-                    </ul>
-                
+                    </ul> -->
                 </li>
-                <li><a href="#" role="link">Skills</a></li>
-                <li><a href="#" role="link">Blog</a></li>
-                <li><a href="#" role="link">Contact</a></li>
+                <li><a href="#skillsSection" role="link">Skills</a></li>
+                <li><a href="#blogSection" role="link">Blog</a></li>
+                <li><a href="#contactSection" role="link">Contact</a></li>
             </ul>
         </nav>
-    
         <h3 class="header__profile">
-            <img src="./assets/portfolio__image.jfif" alt="Dennis Mbugua Github profile picture" class="header__profile-logo" loading="lazy">
-            <span><strong>Eikev Dennis Ng'ang'a Mbugua</strong></span>
+          
+            <button class="hire-me-btn">Hire Me</button>
+            <div class="hire-div show-hire-btn">
+                <a href="https://www.fiverr.com/sellers/beewak_designer/edit" target="_blank" class="hire-btn fiverr">
+                    <i class="fa-brands fa-hire-a-helper"></i> Hire on Fiverr
+                </a>
+                <a href="https://www.upwork.com/freelancers/~015834d4c8fb3cf349" target="_blank" class="hire-btn upwork">
+                    <i class="fa-brands fa-upwork"></i> Hire on Upwork
+                </a>
+            </div>
         </h3>
     </header>
-    <div class="menu">
+
+    <!-- end of header -->
+    <div class="menu" id="menu-icon-container">
         <i class="fa-solid fa-bars"></i>
     </div>
+
+    <!-- PORTFOLIO HERO SECTION STARTS HERE -->
+    <section class="hero" id="hero">
+        <div class="hero-left">
+            <figure>
+                <img src="../src/assets/portfolio__image.jfif" alt="A portrait of Dennis Mbugua" class="profile-img">
+                <figcaption>
+                    <h1 class="name">Dennis N. Mbugua
+                    </h1>
+                    <p class="username">@sirme_mbugua</p>
+                    <p class="title">Software Engineer | Front-end & Backend Developer</p>
+                    <p class="hobbies">Hobbies: Coding, Reading, Traveling,Cycling, Driving</p>
+                </figcaption>
+            </figure>
+        </div>
     
+        <div class="hero-right">
+            <article class="story">
+                <h2>Who Am I?</h2>
+                <p>Nice to meet you, i'm problem solver and a passionate software engineer. I enjoy building things that people find useful and easy to use.</p>
+                
+                <p>My journey working as a <strong>computer lab assistant</strong>, where I loved everything about computers as computing tools. Over time, I found myself drawn to coding, realizing I could do more than just fix things—I could create.</p>
+            
+                <h2>Why Software Engineering?</h2>
+                <p>Tech has always fascinated me. The ability to turn an idea into a working product is what keeps me going. I love the challenge of solving problems and making digital experiences better.</p>
+                
+                <p>With a background in **IT, graphics design, and mentoring**, I bring a mix of technical and creative skills. Whether it's frontend, backend, or system optimization, I aim to write clean, efficient code that improves user experiences.</p>
+            
+                <h2>What’s Next for Me?</h2>
+                <p>I’m constantly learning. Right now, I’m diving deeper into **React.js, backend development with Node.js, and scalable architectures** to become a stronger full-stack developer.</p>
+                
+                <p>Beyond coding, I want to work with teams that value **innovation, mentorship, and collaboration**. I believe in sharing knowledge and growing together.</p>
+            
+                <p>My goal? To build impactful software, contribute to great engineering cultures, and keep pushing my skills forward.</p>
+            </article>
+            
+        </div>
+    </section>
+
+    <!-- addresses section -->
+    <section class="contact">
+        <h2 class="contact-title">LET'S HAVE COFFEE CHAT?</h2>
+        <div class="contact-info">
+          <p><strong>Address:</strong> Nairobi</p>
+          <p><strong>Email:</strong> <i class="fas fa-envelope"></i> <a href="mailto:dennis.mbuguang@gmail.com" class="contact-link">dennis.mbuguang@gmail.com</a></p>
+          <p><strong>GitHub:</strong> <i class="fab fa-github"></i> <a href="https://github.com/MbuguaDennis" target="_blank" class="contact-link">github.com/MbuguaDennis</a></p>
+          <p><strong>LinkedIn:</strong> <i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/eikev-dennis-n-mbugua-5b91a9203/" target="_blank" class="contact-link">linkedin.com/in/eikev-dennis-n-mbugua-5b91a9203/</a></p>
+        </div>
+        <a class="resume-btn" href="#" download>Download Resume</a>
+    </section>
+
+    <!-- industries I have worked in -->
+    <section class="industries">
+        <h2 class="industries-title">Industries I've Worked In</h2>
+        <div class="industry-container">
+            <div class="industry-card">
+                <h3 class="industry-name"><i class="fas fa-headset"></i> IT Call Center Support</h3>
+                <p class="industry-description">Good communication skills, thus improving customer satisfaction by 90%</p>
+            </div>
+            <div class="industry-card">
+                <h3 class="industry-name"><i class="fas fa-paint-brush"></i> Graphics Design</h3>
+                <p class="industry-description">Besides coding,I love creating designs that impact brands.
+                    <span class="design-logos">illustrator</span>
+                    <span class="design-logos">Canva</span>
+                    <span class="design-logos">Photoshop</span>
+
+                </p>
+            </div>
+            <div class="industry-card">
+                <h3 class="industry-name"><i class="fas fa-server"></i> IT Administration with Windows Server</h3>
+                <p class="industry-description">Windows server tasks including active directory...</p>
+            </div>
+            <div class="industry-card">
+                <h3 class="industry-name"><i class="fas fa-chalkboard-teacher"></i>Mentoring and Facilitator</h3>
+                <p class="industry-description">This is where my core passion lies.I believe in impacting the next generation. My philosophy is to share what I know.
+                </p>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- skills section  -->
+    <section class="skills" id="skillsSection">
+        <h2 class="skills-title">My Technical Skills</h2>
+        <div class="skills-container">
+            <div class="skills-category">
+                <h3 class="category-title">Frontend Development</h3>
+                <ul class="skills-list">
+                    <li class="skill-item"><i class="fab fa-html5"></i> HTML5</li>
+                    <li class="skill-item"><i class="fab fa-css3-alt"></i> CSS3</li>
+                    <li class="skill-item"><i class="fab fa-js"></i> JavaScript</li>
+                    <li class="skill-item"><i class="fab fa-react"></i> React</li>
+                    <li class="skill-item"><i class="fab fa-bootstrap"></i> Bootstrap</li>
+                    <li class="skill-item"><i class="fas fa-paint-brush"></i> Styled Components</li>
+                    <li class="skill-item"><i class="fab fa-tailwindcss"></i> Tailwind CSS</li>
+                </ul>
+            </div>
+            <div class="skills-category">
+                <h3 class="category-title">Backend & Databases</h3>
+                <ul class="skills-list">
+                    <li class="skill-item"><i class="fas fa-gem"></i> Ruby</li>
+                    <li class="skill-item"><i class="fas fa-server"></i> Ruby on Rails</li>
+                    <li class="skill-item"><i class="fas fa-database"></i> SQL</li>
+                    <li class="skill-item"><i class="fas fa-database"></i> PostgreSQL</li>
+                    <li class="skill-item"><i class="fas fa-terminal"></i> PowerShell</li>
+                    <li class="skill-item learning"><i class="fab fa-node-js"></i> Backend with Node.js</li>
+                </ul>
+            </div>
+            <div class="skills-category">
+                <h3 class="category-title">Software Development</h3>
+                <ul class="skills-list">
+                    <li class="skill-item"><i class="fab fa-git-alt"></i> Git & GitHub</li>
+                    <li class="skill-item"><i class="fab fa-python"></i> Python Fundamentals</li>
+                    <li class="skill-item"><i class="fas fa-code-branch"></i> Data Structures & Algorithms</li>
+                    <li class="skill-item"><i class="fas fa-cubes"></i> Object-Oriented Programming</li>
+                    <li class="skill-item"><i class="fas fa-server"></i> Server Administration</li>
+                    <li class="skill-item"><i class="fas fa-terminal"></i> Command Line</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROJECTS SECTION -->
+<section class="projects" id="projectsSection">
+    <h2 class="projects-title">Don't Fret, Deploying Projects Soon...</h2>
+    <div class="projects-container" id="projects-container">
+        <div class="project-card">
+            <img src="../src/assets/Project__image.jpg" alt="Project Screenshot" class="project-img">
+            <div class="project-details">
+                <h3 class="project-title">Project Name will come here...</h3>
+                <p class="project-tech">project technologies will be here...</p>
+                <p class="project-desc">Briefly describe the project, its purpose, and your contributions. Mention any new learning experiences and challenges you tackled.</p>
+                <a href="#" class="project-link" target="_blank">View Project</a>
+            </div>
+        </div>
+        <div class="project-card">
+            <img src="../src/assets/Project__image.jpg" alt="Project Screenshot" class="project-img">
+            <div class="project-details">
+                <h3 class="project-title">Project Name will come here...</h3>
+                <p class="project-tech">project technologies will be here...</p>
+                <p class="project-desc">Briefly describe the project, its purpose, and your contributions. Mention any new learning experiences and challenges you tackled.</p>
+                <a href="#" class="project-link" target="_blank">View Project</a>
+            </div>
+        </div>
+    </div>
+    <button class="load-more" id="load-more">Load More Projects</button>
+</section>
+<!-- contact me section -->
+<section class="contact-section" id="contactSection">
+    <div class="contact-section-container">
+        <div class="contact-section-left">
+            <h2>Contact Me</h2>
+            <p>Whether you have questions about my services, need to work on a project, or want to share your feedback, I'm dedicated to assisting you every step of the way.</p>
+        </div>
+        <div class="contact-section-right">
+            <h3>Get in Touch</h3>
+            <form id="contact-form-unique">
+                <input type="text" id="contact-name" name="name" placeholder="Your Name" required>
+                <input type="email" id="contact-email" name="email" placeholder="Your Email" required>
+                <input type="tel" id="contact-phone" name="phone" placeholder="Your Phone Number">
+                <textarea id="contact-message" name="message" placeholder="Your Message" required></textarea>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+</section>
+<!-- contact section ends here -->
+
+<!-- FOOTER SECTION -->
+<footer class="footer" id="footer">
+    <div class="footer-container">
+        <div class="footer-column">
+            <h3>Skills Currently Learning</h3>
+            <ul>
+                <li>Generative AI</li>
+                <li>Ruby and Ruby On Rails</li>
+                <li>Advanced Database Optimization</li>
+                <li>Front-End with ReactJs</li>
+                <li>Backend with Node.js</li>
+                <li>Soft Skills for Collaboration</li>
+                <li>Strong Passion to Mentor and Teach</li>
+            </ul>
+        </div>
+        <div class="footer-column">
+            <h3>Resources</h3>
+            <ul>
+                <li><a href="https://developer.mozilla.org/" target="_blank">MDN Web Docs <span>{My Favorite Docs}</span></a></li>
+                <li><a href="https://www.freecodecamp.org/" target="_blank">FreeCodeCamp</a></li>
+                <li><a href="https://www.udemy.com/" target="_blank">Turing Software Engineering </a></li>
+            </ul>
+        </div>
+        <div class="footer-column">
+            <h3>Certifications</h3>
+            <ul>
+                <li>FreeCodeCamp Responsive Web Design Certification </li>
+                <li>DataBase Management System</li>
+                <li>Data Structures and Algorithms</li>
+            </ul>
+        </div>
+        <div class="footer-column">
+            <h3>Social</h3>
+            <ul>
+                <li>Pronouns: He/Him</li>
+                <li><a href="https://twitter.com/yourprofile" target="_blank">Twitter/X</a></li>
+                <li class="collab">Let's collaborate on a project!</li>
+            </ul>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>Made with ❤️ by Eikev Dennis Ng'ang'a Mbugua &copy; <span id="current-year"></span></p>
+        <p>Stay well wherever you are!</p>
+    </div>
+</footer>
+<div class="scroll-up-btn">
+    <i class="fas fa-arrow-up"></i>
+  </div>
+
+
 
 
 
