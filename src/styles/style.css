@@ -142,6 +142,10 @@
     background: #6FDA44;
     color: white;
 }
+.linkedin{
+  background: blue;
+  color: white;
+}
 
 .hire-btn:hover {
     opacity: 0.8;
